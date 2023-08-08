@@ -69,7 +69,7 @@ const About = () => {
       <div className="col-lg-3 col-md-3 col-sm-12 p-0">
         <div className="position-relative">
           <img src={mission} className="card-img" alt="..." style={{ objectFit: 'cover', height: '100%' }} />
-          <div className="card-img-overlay text-center p-0 d-flex align-items-center">
+          <div className="card-img-overlay text-center p-0 d-flex align-items-center justify-content-center">
             <div>
               <h5 className="card-title text-white">Mission</h5>
               <p className="card-text text-center text-white">
@@ -82,10 +82,10 @@ const About = () => {
       <div className="col-lg-3 col-md-3 col-sm-12 p-0">
         <div className="position-relative">
           <img src={vision} className="card-img" alt="..." style={{ objectFit: 'cover', height: '100%' }} />
-          <div className="card-img-overlay text-center p-0 d-flex align-items-center">
+          <div className="card-img-overlay text-center p-0 d-flex align-items-center justify-content-center">
             <div>
               <h5 className="card-title text-white">Vision</h5>
-              <p className="card-text text-white">
+              <p className="card-text text-center text-white">
                 Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit.
               </p>
             </div>
@@ -95,10 +95,10 @@ const About = () => {
       <div className="col-lg-3 col-md-3 col-sm-12 p-0">
         <div className="position-relative">
           <img src={values} className="card-img" alt="..." style={{ objectFit: 'cover', height: '100%' }} />
-          <div className="card-img-overlay text-center p-0 d-flex align-items-center">
+          <div className="card-img-overlay text-center p-0 d-flex align-items-center justify-content-center">
             <div>
               <h5 className="card-title text-white">Values</h5>
-              <p className="card-text text-white">
+              <p className="card-text text-center text-white">
                 Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit.
               </p>
             </div>
@@ -110,6 +110,7 @@ const About = () => {
       <GetStartedButton />
     </div>
   </div>
+  
   
   
   
