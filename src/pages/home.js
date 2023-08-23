@@ -45,28 +45,6 @@ const Home = () => {
 const Flags = () => {
   return (
     <>
-      {/* <div className="container-fluid">
-        {" "}
-        <div
-          className="row d-flex justify-content-center justify-content-evenly py-5"
-          style={{ backgroundColor: "#FAF9F9" }}
-        >
-          <div className="col-lg-3 col-md-3 col-sm-6">
-            <img src={mandarin} className="mx-4" width="100" height="94" />
-          </div>
-          <div className="col-lg-3 col-md-3 col-sm-6">
-            {" "}
-            <img src={french} className="mx-4" width="100" height="94" />
-          </div>
-          <div className="col-lg-3 col-md-3 col-sm-6">
-            <img src={german} className="mx-4" width="100" height="94" />
-          </div>
-          <div className="col-lg-3 col-md-3 col-sm-6">
-            {" "}
-            <img src={yoruba} className="mx-4" width="100" height="94" />
-          </div>
-        </div>
-      </div> */}
       <div className="container-fluid mt-4">
         <div
           className="row d-flex justify-content-center py-5"
@@ -171,7 +149,7 @@ const OurOfferings = () => {
         <div className="row d-lg-flex d-md-flex">
           <div className="col-lg-3 col-md-6 py-2">
             {/* <CheckBox /> */}
-            <h4>Lorem ipsum dolor sit amet</h4>
+            <h4>Our Offerings</h4>
             <br />
             <p className="">
               Lorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum
@@ -221,7 +199,7 @@ const OurSessions = () => {
   return (
     <>
       <div className="container">
-        <h4 className="text-center my-5">Our Sessions</h4>
+        <h4 className="text-center mt-5 mb-3">Our Sessions</h4>
         <div class="row justify-content-center">
           <div class="col-lg-5 col-md-8 d-flex mt-4">
             <div class="d-flex justify-content-between align-items-center px-5 py-4 sessionCard w-100">
